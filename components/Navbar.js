@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from "next/link";
+import Image from "next/image";
 
 function Navbar(props) {
     return (
         <nav>
             <div className="logo">
-                <h1>Ninja List Logo</h1>
+                <Image src="/ninja.svg" width={100} height={77}/>
             </div>
             <div className="navLinks">
                 <Link href="/"><a>Home</a></Link>
