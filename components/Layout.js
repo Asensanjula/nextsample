@@ -5,6 +5,7 @@ import Footer from "./Footer";
 const Layout = ({children}) => {
     return (
         <div className="content">
+            <TryMobileBanner/>
             <Navbar/>
             {children}
             <Footer/>
