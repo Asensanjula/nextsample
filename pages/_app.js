@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Layout from "../components/Layout";
-import '../Utility/fontawesome';
+import '../utility/fontawesome';
 
 function MyApp({ Component, pageProps }) {
   return (
